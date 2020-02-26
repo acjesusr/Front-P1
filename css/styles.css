@@ -1,0 +1,47 @@
+/* BACKGROUNDS */
+
+.content {
+    position: absolute;
+    /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.default-bg {
+    background-color: #e5e4cc;
+}
+
+.mint-bg {
+    background-color: #bac7a7;
+}
+
+.pastel-bg {
+    background-color: #bac7a7;
+}
+
+.green-bg {
+    background-color: #698474;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.navy-bg {
+    background-color: #e1f4f3;
+}
+
+.grey-bg {
+    background-color: #706c61;
+}
+
+.black-bg {
+    background-color: #333333;
+}
